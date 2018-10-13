@@ -4,13 +4,13 @@
       "name": "datasource.flyway",
       "type": "javax.sql.DataSource",
       "sourceType": "com.boot.config.PersistenceConfiguration",
-      "sourceMethod": "flywayDataSource()"
+      "sourceMethod": "public javax.sql.DataSource flywayDataSource() "
     },
     {
       "name": "spring.datasource",
       "type": "javax.sql.DataSource",
       "sourceType": "com.boot.config.PersistenceConfiguration",
-      "sourceMethod": "dataSource()"
+      "sourceMethod": "public javax.sql.DataSource dataSource() "
     }
   ],
   "properties": [],
